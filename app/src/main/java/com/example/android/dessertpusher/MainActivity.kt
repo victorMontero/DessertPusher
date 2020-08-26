@@ -18,7 +18,6 @@ package com.example.android.dessertpusher
 
 import android.content.ActivityNotFoundException
 import android.os.Bundle
-import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
 import android.widget.Toast
@@ -78,7 +77,7 @@ class MainActivity : AppCompatActivity(), LifecycleObserver {
         }
 
         // create a dessert timer
-        dessertsTimer = DessertTimer(this.lifecycle )
+        dessertsTimer = DessertTimer(this.lifecycle)
 
         // Set the TextViews to the right values
         binding.revenue = revenue
